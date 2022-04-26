@@ -1,0 +1,1128 @@
+{
+	"Administrator": true,
+	"AltDrag": true,
+	"AutoClip": false,
+	"CapsLockLed": false,
+	"CapsUnlock": false,
+	"ClipboardManager": {
+		"Menu": [{
+			"Actions": [
+				["Execute", "chrome %clipboard%"]
+			],
+			"Name": "Chrome访问",
+			"Valid": true
+		}, {
+			"Actions": [
+				["Execute", "ie %clipboard%"]
+			],
+			"Name": "Edge访问",
+			"Valid": true
+		}, {
+			"Actions": [],
+			"Name": "访问",
+			"Valid": true
+		}, {
+			"Actions": [
+				["Execute", "https://www.baidu.com/s?ie=UTF-8&wd=%clipboard%"]
+			],
+			"Name": "百度搜索(&B)",
+			"Valid": true
+		}, {
+			"Actions": [
+				["Execute", "https://search.bilibili.com/all?keyword=%clipboard%&from_source=nav_suggest_new"]
+			],
+			"Name": "BiliBili搜索",
+			"Valid": true
+		}, {
+			"Actions": [
+				["Execute", "https://www.google.com/search?q=%clipboard%"]
+			],
+			"Name": "谷歌搜索",
+			"Valid": true
+		}, {
+			"Actions": [],
+			"Name": "搜索",
+			"Valid": true
+		}, {
+			"Actions": [
+				["Execute", "https://fanyi.baidu.com/#zh/en/%clipboard%"]
+			],
+			"Name": "百度翻译",
+			"Valid": true
+		}, {
+			"Actions": [
+				["Algorithm", "urlencode", "%clipboard%"]
+			],
+			"Name": "urlencode",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Execute", "https://translate.google.com/?source=osdd#auto|auto|%clipboard%"]
+			],
+			"Name": "谷歌翻译",
+			"Valid": true
+		}, {
+			"Actions": [],
+			"Name": "翻译",
+			"Valid": true
+		}, {
+			"Actions": [
+				["Algorithm", "qrcode", "%clipboard%"]
+			],
+			"Name": "二维码",
+			"Valid": true
+		}, {
+			"Actions": [],
+			"Name": "编码解码",
+			"Valid": true
+		}, {
+			"Actions": [
+				["Execute", "Everything.exe -s %clipboard%"]
+			],
+			"Name": "Everything",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Execute", "https://m.kuaidi100.com/result.jsp?nu=%clipboard%"]
+			],
+			"Name": "快递查询",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Execute", "https://ditu.amap.com/search?query=%clipboard%"]
+			],
+			"Name": "高德地图",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Algorithm", "cyberchef", "%clipboard%"]
+			],
+			"Name": "CyberChef(&C)",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Algorithm", "b64encode", "%clipboard%"]
+			],
+			"Name": "base64编码",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Execute", "http://s.taobao.com/search?q=%clipboard%"]
+			],
+			"Name": "淘宝搜索",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Algorithm", "b64decode", "%clipboard%"]
+			],
+			"Name": "base64解码",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Algorithm", "urldecode", "%clipboard%"]
+			],
+			"Name": "urldecode",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Algorithm", "sha1", "%clipboard%"]
+			],
+			"Name": "sha1",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Algorithm", "md5", "%clipboard%"]
+			],
+			"Name": "md5",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Algorithm", "sha256", "%clipboard%"]
+			],
+			"Name": "sha256",
+			"Valid": false
+		}, {
+			"Actions": [],
+			"Name": "购物",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Execute", "https://search.jd.com/Search?keyword=%clipboard%&enc=utf-8"]
+			],
+			"Name": "京东搜索",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Execute", "http://fanyi.youdao.com/translate?i=%clipboard%&keyfrom=plugin&smartresult=dict&smartresult=rule"]
+			],
+			"Name": "有道翻译(&Y)",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Execute", "https://search.smzdm.com/?c=home&s=%clipboard%"]
+			],
+			"Name": "什么值得买",
+			"Valid": false
+		}],
+		"Open": true
+	},
+	"Excludes": ["cosclient.exe"],
+	"FastPaste": false,
+	"Gestures": [{
+		"Data": [0, 100, 0, 0],
+		"Sign": "上"
+	}, {
+		"Data": [0, 0, 0, 100],
+		"Sign": "下"
+	}, {
+		"Data": [100, 0, 0, 0],
+		"Sign": "左"
+	}, {
+		"Data": [0, 0, 100, 0],
+		"Sign": "右"
+	}, {
+		"Data": [100, 100, 0, 0],
+		"Sign": "左上"
+	}, {
+		"Data": [0, 0, 100, 100],
+		"Sign": "右下"
+	}, {
+		"Data": [0, 100, 100, 0],
+		"Sign": "右上"
+	}, {
+		"Data": [100, 0, 0, 100],
+		"Sign": "左下"
+	}, {
+		"Data": [40, 100, 50, 0, 60, 105],
+		"Sign": "上2下"
+	}, {
+		"Data": [40, 0, 50, 100, 60, -5],
+		"Sign": "下2上"
+	}, {
+		"Data": [100, 40, 0, 50, 105, 60],
+		"Sign": "左2右"
+	}, {
+		"Data": [0, 40, 100, 50, -5, 60],
+		"Sign": "右2左"
+	}, {
+		"Data": [100, 100, 100, 0, 0, 0],
+		"Sign": "上2左"
+	}, {
+		"Data": [0, 100, 0, 0, 100, 0],
+		"Sign": "上2右"
+	}, {
+		"Data": [100, 0, 100, 100, 0, 100],
+		"Sign": "下2左"
+	}, {
+		"Data": [0, 0, 0, 100, 100, 100],
+		"Sign": "下2右"
+	}, {
+		"Data": [100, 100, 0, 100, 0, 0],
+		"Sign": "左2上"
+	}, {
+		"Data": [100, 0, 0, 0, 0, 100],
+		"Sign": "左2下"
+	}, {
+		"Data": [0, 100, 100, 100, 100, 0],
+		"Sign": "右2上"
+	}, {
+		"Data": [0, 0, 100, 0, 100, 100],
+		"Sign": "右2下"
+	}, {
+		"Data": [100, 50, 50, 50, 50, 100, 0, 100],
+		"Sign": "左2下2左"
+	}, {
+		"Data": [100, 50, 50, 50, 50, 0, 0, 0],
+		"Sign": "左2上2左"
+	}, {
+		"Data": [0, 50, 50, 50, 50, 100, 100, 100],
+		"Sign": "右2下2右"
+	}, {
+		"Data": [0, 50, 50, 50, 50, 0, 100, 0],
+		"Sign": "右2上2右"
+	}, {
+		"Data": [0, 100, 0, 50, 50, 50, 50, -5],
+		"Sign": "上2右2上"
+	}, {
+		"Data": [0, 0, 0, 50, 50, 50, 50, 105],
+		"Sign": "下2右2下"
+	}, {
+		"Data": [50, 100, 50, 50, 0, 50, 0, 0],
+		"Sign": "上2左2上"
+	}, {
+		"Data": [50, 0, 50, 50, 0, 50, 0, 100],
+		"Sign": "下2左2下"
+	}, {
+		"Data": [0, 0, 0, 100, 100, 100, 100, 0, 5, 0],
+		"Sign": "逆1"
+	}, {
+		"Data": [100, 0, 100, 100, 0, 100, 0, 0, 95, 0],
+		"Sign": "顺2"
+	}, {
+		"Data": [0, 100, 25, 0, 50, 100, 75, 0, 100, 105],
+		"Sign": "M"
+	}, {
+		"Data": [0, 0, 25, 100, 50, 0, 75, 100, 100, -5],
+		"Sign": "W"
+	}, {
+		"Data": [50, 0, 30, 4, 16, 13, 6, 25, 2, 34, 0, 50, 2, 66, 6, 75, 16, 87, 30, 96, 55, 100],
+		"Sign": "C"
+	}, {
+		"Data": [50, 0, 30, 4, 16, 13, 6, 25, 2, 34, 0, 50, 2, 66, 6, 75, 16, 87, 30, 96, 50, 100, 70, 96, 84, 87, 94, 75, 98, 66, 100, 50, 98, 34, 94, 25, 84, 13, 70, 4, 55, 0],
+		"Sign": "O"
+	}, {
+		"Data": [30, 100, 30, 0, 70, 0, 70, 50, 40, 50],
+		"Sign": "P"
+	}, {
+		"Data": [30, 100, 30, 0, 70, 0, 70, 50, 40, 50, 70, 105],
+		"Sign": "R"
+	}, {
+		"Data": [30, 100, 30, 0, 70, 0, 70, 45, 40, 50, 70, 55, 70, 100, 35, 100],
+		"Sign": "B"
+	}, {
+		"Data": [30, 0, 30, 100, 30, 50, 50, 50, 70, 50, 70, 105],
+		"Sign": "h"
+	}, {
+		"Data": [0, 100, 0, 0, 70, 100, 70, -5],
+		"Sign": "N"
+	}, {
+		"Data": [70, 0, 0, 0, 0, 50, 70, 50, 70, 100, -5, 100],
+		"Sign": "S"
+	}, {
+		"Data": [0, 0, 70, 0, 0, 100, 75, 100],
+		"Sign": "Z"
+	}, {
+		"Data": [0, 0, 50, 20, 0, 40, 50, 60, -5, 80],
+		"Sign": "3"
+	}, {
+		"Data": [0, 0, 100, 0, 100, 100, 0, 100, 0, 5],
+		"Sign": "顺1"
+	}, {
+		"Data": [0, 100, 0, 0, 100, 0, 100, 100, 5, 100],
+		"Sign": "顺4"
+	}],
+	"HotCorner": {
+		"BottomLeft": {
+			"Actions": [
+				["SendKeyUp"],
+				["SendKeyUp"]
+			],
+			"Name": "切换程序结束",
+			"Valid": false
+		},
+		"BottomRight": {
+			"Actions": [
+				["SendKeys", "Win+D"]
+			],
+			"Name": "显示桌面",
+			"Valid": true
+		},
+		"Open": true,
+		"TopLeft": {
+			"Actions": [
+				["SendKeys", "Win+Tab"]
+			],
+			"Name": "切换桌面",
+			"Valid": true
+		},
+		"TopRight": {
+			"Actions": [
+				["SendKeydown", "alt"],
+				["SendKeyDown", "tab"]
+			],
+			"Name": "切换程序",
+			"Valid": false
+		}
+	},
+	"Hotkeys": [{
+		"Actions": [
+			["ScreenshotHQ", "ToFile", "DrawCursor|TransparencyGrid"]
+		],
+		"Keys": "Ctrl+PrtSc",
+		"Name": "高清截图",
+		"Valid": false
+	}, {
+		"Actions": [
+			["Execute", "notepad.exe"]
+		],
+		"Keys": "Win+N",
+		"Name": "打开记事本",
+		"Valid": false
+	}, {
+		"Actions": [
+			["Explorer", "select", "%filepath%"]
+		],
+		"Keys": "Ctrl+Alt+E",
+		"Name": "定位程序位置",
+		"Valid": false
+	}, {
+		"Actions": [
+			["Window", "HideTray"]
+		],
+		"Keys": "Ctrl+Alt+Z",
+		"Name": "隐藏窗口到托盘",
+		"Valid": false
+	}, {
+		"Actions": [
+			["SetBrightness", "UP"]
+		],
+		"Keys": "Alt+PageUp",
+		"Name": "调高亮度",
+		"Valid": false
+	}, {
+		"Actions": [
+			["SetBrightness", "DOWN"]
+		],
+		"Keys": "Alt+PageDown",
+		"Name": "调低亮度",
+		"Valid": false
+	}, {
+		"Actions": [
+			["SetBrightness", "DEFAULT"]
+		],
+		"Keys": "Alt+End",
+		"Name": "默认亮度",
+		"Valid": false
+	}, {
+		"Actions": [
+			["Internal", "Pause"]
+		],
+		"Keys": "Ctrl+Alt+M",
+		"Name": "暂停恢复MouseInc",
+		"Valid": false
+	}, {
+		"Actions": [
+			["Internal", "Icon"]
+		],
+		"Keys": "Ctrl+Alt+I",
+		"Name": "切换MouseInc图标",
+		"Valid": false
+	}, {
+		"Actions": [
+			["Snapshot", "PiP"]
+		],
+		"Keys": "Ctrl+Alt+P",
+		"Name": "框选画中画",
+		"Valid": false
+	}, {
+		"Actions": [
+			["Snapshot", "OCR"]
+		],
+		"Keys": "Ctrl+Alt+O",
+		"Name": "框选OCR",
+		"Valid": false
+	}, {
+		"Actions": [
+			["GetClipboard", "Stick"]
+		],
+		"Keys": "Ctrl+Alt+S",
+		"Name": "剪贴板贴图",
+		"Valid": false
+	}, {
+		"Actions": [
+			["Snapshot", "OCR"]
+		],
+		"Keys": "ctrl+q",
+		"Name": "文字识别",
+		"Valid": true
+	}, {
+		"Actions": [
+			["SendKeys", "F5"],
+			["SendKeys", "Shift+F10"]
+		],
+		"Keys": "shift+ctrl+c",
+		"Name": "运行",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Internal", "Pause"],
+			["Internal", "Showtips", "", "成功on|off"]
+		],
+		"Keys": "ctrl+alt+z",
+		"Name": "暂停/开启",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Internal", "Reload"],
+			["Internal", "ShowTips", "", "配置刷新成功"]
+		],
+		"Keys": "ctrl+alt+x",
+		"Name": "重新加载",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Execute", "global_cv %clipboard%", "hide"]
+		],
+		"Keys": "ctrl+alt+c",
+		"Name": "复制",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Execute", "global_cv", "hide"]
+		],
+		"Keys": "ctrl+alt+v",
+		"Name": "粘贴",
+		"Valid": true
+	}],
+	"IgnoreFullScreen": false,
+	"KeySound": false,
+	"KeySoundIndex": 0,
+	"Keycast": {
+		"BackgroundColor": "#353535",
+		"Fade": 5,
+		"FontSize": 24,
+		"IgnoreSingle": false,
+		"Open": false,
+		"Space": 10,
+		"TextColor": "#FFFFFF",
+		"TextShadowColor": "#141414",
+		"X": 40,
+		"Y": 84
+	},
+	"Language": "auto",
+	"Locales": {
+		"en-US": {
+			"About": "About(&A)...",
+			"Autorun": "Start on boot(&A)",
+			"AutorunTips": "You are executing this software in the temporary folder. It is not recommended to enable the start on boot. \nIf you still want to start on boot, select Yes.",
+			"BrightnessTips": "Current brightness {0}%",
+			"CheckUpdate": "Check Update(&U)",
+			"ExcludeTips": "Are you sure you want to exclude {0}?",
+			"Exit": "Exit(&X)",
+			"FailedTips": "An unknown error has occurred, please try again later",
+			"Help": "Help(&H)",
+			"Manual": "Manual(&M)...",
+			"NewGesture": "Add new gesture",
+			"NewGestureDesc": "Don't repeat existing gesture",
+			"NewGestureName": "Name:",
+			"NewGestureOK": "OK",
+			"NoAction": "NoAction",
+			"NoMatch": "NoMatch",
+			"Pause": "Pause(&P)",
+			"PermissionError": "The current directory cannot be written to the configuration file, and the program cannot be executed correctly!",
+			"ReloadConfig": "Reload Config(&C)",
+			"ReloadSucess": "The configuration file has been reloaded",
+			"Settings": "Settings(&S)...",
+			"SuccessTips": "The operation was successful (content has been copied to the clipboard)",
+			"UpdateCheckError": "Check for update failed, please try again later",
+			"UpdateCheckLatest": "Congratulations, you are using the latest version",
+			"UpdateSuccess": "Congratulations you have updated to the new version {0}",
+			"UpdateTips": "Found a new version: {0}\nUpdated content: {1}\n\nDo you want to update now?"
+		},
+		"zh-CN": {
+			"About": "关于(&A)...",
+			"Autorun": "开机启动(&A)",
+			"AutorunTips": "您正在临时文件夹中运行本软件，不建议启用开机启动。\n如果您依然想要开机启动，请选择 是。",
+			"BrightnessTips": "当前亮度 {0}%",
+			"CheckUpdate": "检查更新(&U)",
+			"ExcludeTips": "你确定要排除 {0} 吗？",
+			"Exit": "退出(&X)",
+			"FailedTips": "发生未知错误，请稍候再试",
+			"Help": "帮助(&H)",
+			"Manual": "手册(&M)...",
+			"NewGesture": "添加新手势",
+			"NewGestureDesc": "注意不要和已有手势重复",
+			"NewGestureName": "名称：",
+			"NewGestureOK": "确定",
+			"NoAction": "手势无动作",
+			"NoMatch": "手势无匹配",
+			"Pause": "暂停使用(&P)",
+			"PermissionError": "当前目录无法写入配置文件，程序无法正确运行！",
+			"ReloadConfig": "刷新配置(&C)",
+			"ReloadSucess": "配置文件已经重新加载",
+			"Settings": "打开设置(&S)...",
+			"SuccessTips": "操作成功（内容已经复制到剪贴板）",
+			"UpdateCheckError": "检查更新失败，请稍候再试",
+			"UpdateCheckLatest": "恭喜，您使用的已经是最新版",
+			"UpdateSuccess": "恭喜你已经更新到新版本{0}",
+			"UpdateTips": "发现新版本：{0}\n更新内容：{1}\n\n是否立刻更新？"
+		},
+		"zh-TW": {
+			"About": "關於(&A)...",
+			"Autorun": "開機啟動(&A)",
+			"AutorunTips": "您正在暫存資料夾中執行本軟體，不建議啟用開機啟動功能。\n如果您依然想要開機啟動，請選擇 是。",
+			"BrightnessTips": "当前亮度 {0}%",
+			"CheckUpdate": "檢查更新(&U)",
+			"ExcludeTips": "您確定要排除 {0} 嗎？",
+			"Exit": "結束(&X)",
+			"FailedTips": "發生未知錯誤，請稍候再試",
+			"Help": "說明(&H)",
+			"Manual": "手冊(&M)...",
+			"NewGesture": "新增手勢",
+			"NewGestureDesc": "注意不要和已有手勢重複",
+			"NewGestureName": "名稱：",
+			"NewGestureOK": "確定",
+			"NoAction": "手勢無動作",
+			"NoMatch": "無相符手勢",
+			"Pause": "暫停使用(&P)",
+			"PermissionError": "目前目錄無法寫入設定檔，程式無法正確執行！",
+			"ReloadConfig": "重新整理設定(&C)",
+			"ReloadSucess": "設定檔已重新載入",
+			"Settings": "設定(&S)...",
+			"SuccessTips": "操作成功（內容已經複製至剪貼簿）",
+			"UpdateCheckError": "檢查更新失敗，請稍候再試",
+			"UpdateCheckLatest": "恭喜，您使用的已是最新版",
+			"UpdateSuccess": "恭喜您已經更新至新版本{0}",
+			"UpdateTips": "發現新版本：{0}\n更新內容：{1}\n\n是否立刻更新？"
+		}
+	},
+	"MatchCustom": [{
+		"IgnoreGlobal": false,
+		"List": [{
+			"Actions": [
+				["SendKeys", "Home"]
+			],
+			"Name": "页面顶部",
+			"Sign": "上",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "End"]
+			],
+			"Name": "页面底部",
+			"Sign": "下",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+R"]
+			],
+			"Name": "刷新",
+			"Sign": "右2下",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+W"]
+			],
+			"Name": "关闭标签",
+			"Sign": "下2左",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+PgDn"]
+			],
+			"Name": "切换到右侧标签",
+			"Sign": "右",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+PgUp"]
+			],
+			"Name": "切换到左侧标签",
+			"Sign": "左",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "F11"]
+			],
+			"Name": "全屏切换",
+			"Sign": "下2上",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+T"]
+			],
+			"Name": "打开新标签",
+			"Sign": "左2右",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+Shift+T"]
+			],
+			"Name": "恢复标签",
+			"Sign": "右2左",
+			"Valid": true
+		}, {
+			"Actions": [
+				["window", "minimize"]
+			],
+			"Name": "最小化",
+			"Sign": "上2下",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Shift+Esc"]
+			],
+			"Name": "任务管理器",
+			"Sign": null,
+			"Valid": false
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+F9"]
+			],
+			"Name": "运行",
+			"Sign": "左上",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "ctrl+l"],
+				["SendKeys", "alt+enter"]
+			],
+			"Name": "复制标签页",
+			"Sign": "上2右",
+			"Valid": true
+		}],
+		"Match": ["Chrome.exe", "Firefox.exe", "MicrosoftEdge.exe", "iexplore.exe", "msedge.exe", "safari.exe", "opera.exe", "qqbrowser.exe", "360chrome.exe", "chromecore.exe"],
+		"Name": "浏览器"
+	}, {
+		"IgnoreGlobal": false,
+		"List": [{
+			"Actions": [
+				["SendKeys", "Ctrl+Shift+N"]
+			],
+			"Name": "隐私窗口",
+			"Sign": "P",
+			"Valid": true
+		}, {
+			"Actions": [
+				["PostMessage", "274", "40022"]
+			],
+			"Name": "扩展程序",
+			"Sign": "R",
+			"Valid": true
+		}],
+		"Match": ["Chrome.exe"],
+		"Name": "Chrome"
+	}, {
+		"IgnoreGlobal": false,
+		"List": [{
+			"Actions": [
+				["SendKeys", "Ctrl+Shift+P"]
+			],
+			"Name": "隐私窗口",
+			"Sign": "P",
+			"Valid": true
+		}],
+		"Match": ["Firefox.exe"],
+		"Name": "Firefox"
+	}, {
+		"IgnoreGlobal": false,
+		"List": [{
+			"Actions": [
+				["SendKeys", "Ctrl+F4"]
+			],
+			"Name": "关闭标签",
+			"Sign": "下2左",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Alt+Right"]
+			],
+			"Name": "下一个标签",
+			"Sign": "右",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Alt+Left"]
+			],
+			"Name": "上一个标签",
+			"Sign": "左",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+-"]
+			],
+			"Name": "折叠",
+			"Sign": "上",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+Plus"]
+			],
+			"Name": "展开",
+			"Sign": "下",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+O"]
+			],
+			"Name": "重写",
+			"Sign": "右2下",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Alt+Insert"]
+			],
+			"Name": "生成",
+			"Sign": "下2上",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Shift+F10"]
+			],
+			"Name": "运行",
+			"Sign": "左上",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Ctrl+Alt+T"]
+			],
+			"Name": "语句块",
+			"Sign": "右下",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "ctrl+shift+-"]
+			],
+			"Name": "全部折叠",
+			"Sign": "上2右2上",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "ctrl+shift+plus"]
+			],
+			"Name": "全部展开",
+			"Sign": "下2右2下",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "ctrl+alt+-"]
+			],
+			"Name": "单个全折叠",
+			"Sign": "上2左2上",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "ctrl+alt+plus"]
+			],
+			"Name": "单个全展开",
+			"Sign": "下2左2下",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "ctrl+alt+l"]
+			],
+			"Name": "格式化代码",
+			"Sign": "右2下",
+			"Valid": true
+		}],
+		"Match": ["Idea64.exe", "pycharm64.exe", "studio64.exe"],
+		"Name": "Idea"
+	}, {
+		"IgnoreGlobal": false,
+		"List": [{
+			"Actions": [
+				["SendKeys", "Ctrl+W"]
+			],
+			"Name": "关闭当前文档",
+			"Sign": "下2左",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "CTRL+TAB"]
+			],
+			"Name": "下一个文档",
+			"Sign": "右",
+			"Valid": true
+		}],
+		"Match": ["wpp.exe", "wps.exe"],
+		"Name": "WPS"
+	}, {
+		"IgnoreGlobal": false,
+		"List": [{
+			"Actions": [
+				["SendKeys", "Esc"]
+			],
+			"Name": "返回",
+			"Sign": "左",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "Esc"],
+				["SendKeys", "Esc"]
+			],
+			"Name": "确认退出",
+			"Sign": "左2下2左",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "F1"]
+			],
+			"Name": "返回桌面",
+			"Sign": "下",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "F2"]
+			],
+			"Name": "后台",
+			"Sign": "上",
+			"Valid": true
+		}],
+		"Match": ["dnplayer.exe"],
+		"Name": "模拟器"
+	}, {
+		"IgnoreGlobal": false,
+		"List": [{
+			"Actions": [
+				["SendKeys", "Ctrl+Alt+N"]
+			],
+			"Name": "",
+			"Sign": "左上",
+			"Valid": true
+		}],
+		"Match": ["code.exe"],
+		"Name": "VsCode"
+	}],
+	"MatchGlobal": [{
+		"Actions": [
+			["SendKeys", "Forward"]
+		],
+		"Name": "前进",
+		"Sign": "RIGHT",
+		"Valid": false
+	}, {
+		"Actions": [
+			["SendKeys", "Back"]
+		],
+		"Name": "后退",
+		"Sign": "LEFT",
+		"Valid": false
+	}, {
+		"Actions": [
+			["Window", "Close"]
+		],
+		"Name": "关闭窗口",
+		"Sign": "下2左",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Window", "Maximize"]
+		],
+		"Name": "窗口最大化/还原",
+		"Sign": "右上",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Window", "Minimize"]
+		],
+		"Name": "窗口最小化",
+		"Sign": "左下",
+		"Valid": true
+	}, {
+		"Actions": [
+			["SendKeys", "Ctrl+Alt+A"]
+		],
+		"Name": "QQ截图",
+		"Sign": "顺1",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Snapshot", "OCR"]
+		],
+		"Name": "OCR",
+		"Sign": "逆1",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Internal", "Exclude"]
+		],
+		"Name": "排除当前程序",
+		"Sign": "Z",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Internal", "Settings"],
+			["Execute", "notepad %appdir%\\MouseInc.json"]
+		],
+		"Name": "设置MouseInc",
+		"Sign": "M",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Execute", "notepad.exe %appdir%\\MouseInc.json", "wait"],
+			["Internal", "Reload"]
+		],
+		"Name": "设置MouseInc",
+		"Sign": "M",
+		"Valid": false
+	}, {
+		"Actions": [
+			["SendKeys", "Ctrl+PgUp"]
+		],
+		"Name": "滚轮切换-上",
+		"Sign": "WheelSwitchUp",
+		"Valid": false
+	}, {
+		"Actions": [
+			["SendKeys", "Ctrl+PgDn"]
+		],
+		"Name": "滚轮切换-下",
+		"Sign": "WheelSwitchDown",
+		"Valid": false
+	}, {
+		"Actions": [
+			["Snapshot", "Stick"]
+		],
+		"Name": "抠图层",
+		"Sign": "顺2",
+		"Valid": true
+	}, {
+		"Actions": [
+			["SendKeys", "F5"]
+		],
+		"Name": "运行",
+		"Sign": "R",
+		"Valid": false
+	}, {
+		"Actions": [
+			["Snapshot", "PiP"]
+		],
+		"Name": "画中画",
+		"Sign": "顺4",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Execute", "explorer D:\\Download\\IDM\\"]
+		],
+		"Name": "打开下载",
+		"Sign": "下2右",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Execute", "explorer D:\\桌面\\MouseInc.txt"]
+		],
+		"Name": "帮助",
+		"Sign": "h",
+		"Valid": true
+	}, {
+		"Actions": [
+			["Execute", "control /name Microsoft.NetworkAndSharingCenter"]
+		],
+		"Name": "切换网络",
+		"Sign": "右下",
+		"Valid": true
+	}, {
+		"Actions": [
+			["SendKeys", "shift+F10"]
+		],
+		"Name": "运行",
+		"Sign": "左上",
+		"Valid": true
+	}, {
+		"Actions": [
+			["SendKeys", "Ctrl+Shift+right"]
+		],
+		"Name": "下一首",
+		"Sign": "右",
+		"Valid": true
+	}, {
+		"Actions": [
+			["SendKeys", "Ctrl+Shift+left"]
+		],
+		"Name": "上一首",
+		"Sign": "左",
+		"Valid": true
+	}, {
+		"Actions": [
+			["SendKeys", "Ctrl+Shift+up"]
+		],
+		"Name": "音量加",
+		"Sign": "WheelSwitchUp",
+		"Valid": true
+	}, {
+		"Actions": [
+			["SendKeys", "Ctrl+Shift+down"]
+		],
+		"Name": "音量减",
+		"Sign": "WheelSwitchDown",
+		"Valid": true
+	}, {
+		"Actions": [
+			["SendKeys", "Win+Ctrl+left"]
+		],
+		"Name": "上个桌面",
+		"Sign": "左2下2左",
+		"Valid": true
+	}, {
+		"Actions": [
+			["SendKeys", "Win+Ctrl+right"]
+		],
+		"Name": "下个桌面",
+		"Sign": "右2下2右",
+		"Valid": true
+	}, {
+		"Actions": [
+			["SendKeys", "win+shift+Q"]
+		],
+		"Name": "固定",
+		"Sign": "右2上",
+		"Valid": true
+	}],
+	"MouseGesture": {
+		"AddMode": false,
+		"DrawColor": "#E47542",
+		"DrawResult": true,
+		"DrawTrace": true,
+		"FailColor": "#000000",
+		"FontSize": 26,
+		"Offset": 150,
+		"Open": true,
+		"RandColor": false,
+		"RestoreEvent": false,
+		"Sensitive": 50,
+		"StartDistance": 5,
+		"Timeout": 1000,
+		"TraceArrow": true,
+		"TraceWidth": 3,
+		"WheelSwitch": true
+	},
+	"ShowTrayIcon": true,
+	"VolumeControlSound": false,
+	"VolumeSoundIndex": 0,
+	"WheelAltControl": false,
+	"WheelEdge": {
+		"Bottom": {
+			"DownActions": [
+				["SendKeys", "Ctrl+Alt+Tab"]
+			],
+			"Name": "程序切换",
+			"PressActions": [
+				["SendKeys", "Space"]
+			],
+			"UpActions": [
+				["SendKeys", "Ctrl+Alt+Shift+Tab"]
+			],
+			"Valid": false
+		},
+		"Left": {
+			"DownActions": [
+				["SendKeys", "VolumeDown"]
+			],
+			"Name": "音量调节",
+			"PressActions": [
+				["SendKeys", "VolumeMute"]
+			],
+			"UpActions": [
+				["SendKeys", "VolumeUp"]
+			],
+			"Valid": true
+		},
+		"Open": true,
+		"Right": {
+			"DownActions": [
+				["SetBrightness", "Down"]
+			],
+			"Name": "亮度调节",
+			"PressActions": [
+				["SetBrightness", "DEFAULT"]
+			],
+			"UpActions": [
+				["SetBrightness", "Up"]
+			],
+			"Valid": true
+		},
+		"Top": {
+			"DownActions": [
+				["SendKeys", "Ctrl+PgDn"]
+			],
+			"Name": "标签页切换",
+			"PressActions": [],
+			"UpActions": [
+				["SendKeys", "Ctrl+PgUp"]
+			],
+			"Valid": false
+		}
+	},
+	"WheelNatural": false,
+	"WheelThrough": false
+}
