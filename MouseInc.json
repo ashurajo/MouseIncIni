@@ -859,6 +859,48 @@
 			"Name": "",
 			"Sign": "左上",
 			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "ctrl+K+L"]
+			],
+			"Name": "折叠",
+			"Sign": "上",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "ctrl+K+L"]
+			],
+			"Name": "展开",
+			"Sign": "下",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "ctrl+k+["]
+			],
+			"Name": "单个全部折叠",
+			"Sign": "上2左2上",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "ctrl+k+]"]
+			],
+			"Name": "单个全部展开",
+			"Sign": "下2左2下",
+			"Valid": true
+		}, {
+			"Actions": [
+				["SendKeys", "ctrl+k+0"]
+			],
+			"Name": "全部折叠",
+			"Sign": "上2右2上",
+			"Valid": true
+		}, {
+			"Valid": true,
+			"Sign": "下2右2下",
+			"Name": "全部打开",
+			"Actions": [
+				["SendKeys", "ctrl+k+j"]
+			]
 		}],
 		"Match": ["code.exe"],
 		"Name": "VsCode"
