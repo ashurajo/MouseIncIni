@@ -51,12 +51,6 @@
 			"Valid": true
 		}, {
 			"Actions": [
-				["Algorithm", "urlencode", "%clipboard%"]
-			],
-			"Name": "urlencode",
-			"Valid": false
-		}, {
-			"Actions": [
 				["Execute", "https://translate.google.com/?source=osdd#auto|auto|%clipboard%"]
 			],
 			"Name": "谷歌翻译",
@@ -77,6 +71,18 @@
 			"Valid": true
 		}, {
 			"Actions": [
+				["Execute2", "%clipboard%"]
+			],
+			"Name": "打开(&O)",
+			"Valid": true
+		}, {
+			"Actions": [
+				["Execute", "%clipboard%"]
+			],
+			"Name": "执行(&R)",
+			"Valid": true
+		}, {
+			"Actions": [
 				["Execute", "Everything.exe -s %clipboard%"]
 			],
 			"Name": "Everything",
@@ -86,6 +92,12 @@
 				["Execute", "https://m.kuaidi100.com/result.jsp?nu=%clipboard%"]
 			],
 			"Name": "快递查询",
+			"Valid": false
+		}, {
+			"Actions": [
+				["Algorithm", "urlencode", "%clipboard%"]
+			],
+			"Name": "urlencode",
 			"Valid": false
 		}, {
 			"Actions": [
@@ -156,12 +168,6 @@
 				["Execute", "http://fanyi.youdao.com/translate?i=%clipboard%&keyfrom=plugin&smartresult=dict&smartresult=rule"]
 			],
 			"Name": "有道翻译(&Y)",
-			"Valid": false
-		}, {
-			"Actions": [
-				["Execute", "https://search.smzdm.com/?c=home&s=%clipboard%"]
-			],
-			"Name": "什么值得买",
 			"Valid": false
 		}],
 		"Open": true
@@ -795,7 +801,7 @@
 			"Sign": "右2下",
 			"Valid": true
 		}],
-		"Match": ["Idea64.exe", "pycharm64.exe", "studio64.exe"],
+		"Match": ["Idea64.exe", "pycharm64.exe", "studio64.exe", "hbuilderx.exe", "webstorm64.exe", "clion64.exe"],
 		"Name": "Idea"
 	}, {
 		"IgnoreGlobal": false,
@@ -895,12 +901,12 @@
 			"Sign": "上2右2上",
 			"Valid": true
 		}, {
-			"Valid": true,
-			"Sign": "下2右2下",
-			"Name": "全部打开",
 			"Actions": [
 				["SendKeys", "ctrl+k+j"]
-			]
+			],
+			"Name": "全部打开",
+			"Sign": "下2右2下",
+			"Valid": true
 		}],
 		"Match": ["code.exe"],
 		"Name": "VsCode"
