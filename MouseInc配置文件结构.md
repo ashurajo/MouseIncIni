@@ -32,11 +32,11 @@
 >
 > 
 >
-> Excludes[]	//${\color{Red}排除程序序列}$
+> Excludes[]${\color{Red}排除程序序列}$
 >
 > 
 >
-> MouseGesture		//${\color{Red}鼠标手势}$
+> MouseGesture${\color{Red}鼠标手势}$
 >
 > > Open : 是否开启
 > >
@@ -70,7 +70,7 @@
 >
 > 
 >
-> Gestures[]	//${\color{Red}手势序列}$
+> Gestures[]${\color{Red}手势序列}$
 >
 > > Sign : "手势名"
 > >
@@ -78,7 +78,7 @@
 >
 > 
 >
-> MatchGlobal[]		//${\color{Red}全局手势序列}$
+> MatchGlobal[]${\color{Red}全局手势序列}$
 >
 > > Valid : 是否开启
 > >
@@ -93,7 +93,7 @@
 >
 > 
 >
-> MatchCustom[]		//${\color{Red}特定程序手势序列}$
+> MatchCustom[]${\color{Red}特定程序手势序列}$
 >
 > > IgnoreGlobal : 是否屏蔽全局手势
 > >
@@ -116,7 +116,7 @@
 >
 > 
 >
-> WheelEdge		//${\color{Red}边缘滚动}$
+> WheelEdge${\color{Red}边缘滚动}$
 >
 > > Open : 是否开启
 > >
@@ -140,7 +140,7 @@
 >
 > 
 >
-> HotCorner		//${\color{Red}触发角}$
+> HotCorner${\color{Red}触发角}$
 >
 > > Open : 是否开启
 > >
@@ -156,7 +156,7 @@
 >
 > 
 >
-> ClipboardManager  //${\color{Red}CtrlCC列表}$
+> ClipboardManager${\color{Red}CtrlCC列表}$
 >
 > > Open : 是否开启
 > >
@@ -173,7 +173,7 @@
 >
 > 
 >
-> Hotkeys[]	//${\color{Red}全局热键序列}$
+> Hotkeys[]${\color{Red}全局热键序列}$
 >
 > > Valid : 是否开启
 > >
@@ -187,7 +187,7 @@
 >
 > 
 >
-> Keycast		//${\color{Red}按键回显}$
+> Keycast${\color{Red}按键回显}$
 >
 > > Open : 是否开启
 > >
@@ -213,7 +213,7 @@
 >
 > Language : "语言选择"		//auto
 >
-> Locales 	//${\color{Red}语言配置}$
+> Locales ${\color{Red}语言配置}$
 >
 > > en-US		//语言包zh-CN、zh-TW
 > >
