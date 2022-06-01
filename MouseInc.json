@@ -763,7 +763,7 @@
 				["SendKeys", "Ctrl+Alt+T"]
 			],
 			"Name": "语句块",
-			"Sign": "右下",
+			"Sign": "上2下",
 			"Valid": true
 		}, {
 			"Actions": [
@@ -800,9 +800,16 @@
 			"Name": "格式化代码",
 			"Sign": "右2下",
 			"Valid": true
+		}, {
+			"Valid": true,
+			"Sign": "右下",
+			"Name": "智能选取",
+			"Actions": [
+				["SendKeys", "Ctrl+W"]
+			]
 		}],
 		"Match": ["Idea64.exe", "pycharm64.exe", "studio64.exe", "hbuilderx.exe", "webstorm64.exe", "clion64.exe"],
-		"Name": "Idea"
+		"Name": "IntelliJ"
 	}, {
 		"IgnoreGlobal": false,
 		"List": [{
@@ -969,8 +976,7 @@
 		"Valid": true
 	}, {
 		"Actions": [
-			["Internal", "Settings"],
-			["Execute", "notepad %appdir%\\MouseInc.json"]
+			["Internal", "Settings"]
 		],
 		"Name": "设置MouseInc",
 		"Sign": "M",
